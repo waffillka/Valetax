@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valetax.App", "Valetax.App\Valetax.App.csproj", "{FAF84C3A-D033-47D8-A14D-485338C36168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valetax.Db", "Valetax.Db\Valetax.Db.csproj", "{6FBA9AA7-9695-4557-BE38-761226790009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valetax.Services", "Valetax.Services\Valetax.Services.csproj", "{1A52CD4F-B131-481F-BE4C-846C5CEBCAF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3DCD2731-1FCC-4F9C-848E-1D0346DA9FC2}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valetax.Domain", "Valetax.Domain\Valetax.Domain.csproj", "{31D1EC18-976A-4BC6-A292-5DF58F14254B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF84C3A-D033-47D8-A14D-485338C36168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF84C3A-D033-47D8-A14D-485338C36168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF84C3A-D033-47D8-A14D-485338C36168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF84C3A-D033-47D8-A14D-485338C36168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBA9AA7-9695-4557-BE38-761226790009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBA9AA7-9695-4557-BE38-761226790009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBA9AA7-9695-4557-BE38-761226790009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBA9AA7-9695-4557-BE38-761226790009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A52CD4F-B131-481F-BE4C-846C5CEBCAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A52CD4F-B131-481F-BE4C-846C5CEBCAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A52CD4F-B131-481F-BE4C-846C5CEBCAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A52CD4F-B131-481F-BE4C-846C5CEBCAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D1EC18-976A-4BC6-A292-5DF58F14254B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D1EC18-976A-4BC6-A292-5DF58F14254B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D1EC18-976A-4BC6-A292-5DF58F14254B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D1EC18-976A-4BC6-A292-5DF58F14254B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
